@@ -7,6 +7,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "CUHMessenger"
 include ':app'
-include ':domain'
-include ':data'
 include ':presentation'
+include ':data'
+include ':domain'
