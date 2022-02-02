@@ -6,10 +6,7 @@ import kotlinx.coroutines.launch
 
 class LoginUseCase (private val userDataRepository: UserDataRepository){
 
-    suspend fun invoke(id : String, pw: String) {
-
-        CoroutineScope(Dispatchers.IO).launch {
-            userDataRepository.login(id, pw)
-        }
+    suspend fun invoke(id : String, pw: String):UserData {
+        return userDataRepository.login(id, pw)
     }
 }
