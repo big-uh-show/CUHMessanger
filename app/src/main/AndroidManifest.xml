@@ -11,7 +11,7 @@
         android:theme="@style/Theme.CUHMessenger">
 
         <activity
-            android:name="com.cuh.presentation.MainActivity"
+            android:name="com.cuh.presentation.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
