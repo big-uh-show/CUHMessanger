@@ -1,9 +1,8 @@
 package com.cuh.data.db
 
 import androidx.room.Dao
-import androidx.room.Insert
 import androidx.room.Query
-import com.cuh.domain.login.model.UserData
+import com.cuh.domain.model.user.UserData
 
 @Dao
 interface UserDataDAO {

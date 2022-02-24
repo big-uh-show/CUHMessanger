@@ -1,7 +1,7 @@
-package com.cuh.domain.login.usecase
+package com.cuh.domain.usecase.user
 
-import com.cuh.domain.login.model.UserData
-import com.cuh.domain.login.repository.UserDataRepository
+import com.cuh.domain.model.user.UserData
+import com.cuh.domain.repository.user.UserDataRepository
 
 class LoginUseCase (private val userDataRepository: UserDataRepository){
 

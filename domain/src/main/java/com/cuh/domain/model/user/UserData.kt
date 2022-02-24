@@ -1,4 +1,4 @@
-package com.cuh.domain.login.model
+package com.cuh.domain.model.user
 
 data class UserData (
     val loginID: String,
