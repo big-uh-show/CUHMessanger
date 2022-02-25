@@ -1,4 +1,4 @@
-package com.cuh.data.mapper
+package com.cuh.data.user.mapper
 
 class Mapper {
 

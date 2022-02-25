@@ -1,4 +1,4 @@
-package com.cuh.data.retrofit
+package com.cuh.data.user.retrofit
 
 class RemoteUserDataSourceImpl {
 }
