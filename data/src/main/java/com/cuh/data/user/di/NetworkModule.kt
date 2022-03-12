@@ -23,7 +23,7 @@ class NetworkModule {
 
     @Singleton
     @Provides
-    fun provideRetrofit(okHttpClient: OkHttpClient, url: String) : Retrofit{
+    fun provideRetrofit(okHttpClient: OkHttpClient, url: String) : Retrofit {
         return Retrofit.Builder()
             .client(okHttpClient)
             .baseUrl(url)
